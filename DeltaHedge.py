@@ -25,9 +25,9 @@ stock_volatility = stock_returns.std()
 asset_volatility = asset_returns.std()
 
 # Compute the price of a call option on the stock.
-S = stock_data["Adj Close"].iloc[-1]  # Current stock price.
-K = 100  # Strike price of the option.
-r = 0.01  # Risk-free interest rate.
+S = stock_data["Adj Close"].iloc[-1]  # placeholder Current stock price.
+K = 100  # placeholder Strike price of the option.
+r = 0.01  # placeholder Risk-free interest rate.
 T = 1  # Time to expiration of the option (in years).
 d1 = (log(S / K) + (r + 0.5 * stock_volatility ** 2) * T) / (stock_volatility * sqrt(T))
 d2 = d1 - stock_volatility * sqrt(T)
