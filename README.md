@@ -1,3 +1,3 @@
 # Arjun Kilaru Trading Strategies & Paper Trades
-Here is a list of a few trading strategies I have coded that can be readily back-tested or implemented when connected to the relevant data source! In general, I am very interested with the different discretionary and systematic techniques that traders use to either predict, hedge, or profit from the market. 
-I included my methodology for the paper trades in the pages with the screenshots, I beleive you can access them by clicking the three dots in the upper corner. 
+Here is a list of a few trading strategies I have coded that can be readily back-tested or implemented when connected to the relevant data source! In general, I am very interested with the different discretionary and systematic techniques that traders use to either predict, hedge, or profit from the market. I hope to join the team of traders at Merus and contribute by leading with creative ideas and a strong work ethic. 
+I included my methodology for the paper trades in the pages with the screenshots, I beleive you can access them by clicking the three dots in the upper left corner. 
