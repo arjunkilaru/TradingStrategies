@@ -5,12 +5,11 @@
 #Finally, we use the delta to construct a delta-hedged portfolio, by taking a long position in the stock and a short position in the underlying asset in the correct ratio. 
 #This portfolio is designed to be "delta-neutral", meaning that its value should not be affected by small changes in the price of the stock. 
 
-This is a common approach to managing risk in quant trading.
 import pandas as pd
 from scipy.stats import norm
 
 # Load the historical data for the stock and the underlying asset.
-stock_data = pd.read_csv("stock_data.csv")
+stock_data = pd.read_csv("stock_data.csv") #this can be fed in from a live server
 asset_data = pd.read_csv("asset_data.csv")
 
 # Compute the daily returns for the stock and the underlying asset.
@@ -39,7 +38,7 @@ delta = norm.cdf(d1)
 # Use the delta to construct a delta-hedged portfolio.
 hedge_ratio = delta
 stock_position = 1
-asset_position = -hedge_ratio
+asset_position = -1 * hedge_ratio
 
 # Print the positions in the delta-hedged portfolio.
 print("Stock position:", stock_position)
